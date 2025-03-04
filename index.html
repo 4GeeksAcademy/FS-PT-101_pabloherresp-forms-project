@@ -21,15 +21,16 @@
                     Some fields are missing
                 </div>
                 <div class="row">
-                    <div class="col-12 col-md-5">
+                    <div class="col-12 col-md-5 mt-2">
                         <label for="textCard" class="form-label">Card #</label>
                         <input type="text" id="textCard" class="form-control" placeholder="XXXXXXXXXXXXXXXX" pattern="[0-9]{16}" title="A card number is made of 16 numbers (XXXXXXXXXXXXXXXX)" required>
                     </div>
-                    <div class="col-4 col-md-3">
+                    <div class="col-4 col-md-3 mt-2">
                         <label for="textCVC" class="form-label">CVC #</label>
                         <input type="text" id="textCVC" class="form-control" placeholder="0000" pattern="[0-9]{4}" title="A CVC is made of 4 numbers (0000)" required>
                     </div>
-                    <div class="col-8 col-md-4">
+                    <div class="col-8 col-md-4 mt-2">
+                        <div class="col-8 col-md-4 mt-2">
                         <label for="textAmount" class="form-label">Amount</label>
                         <div class="input-group mb-3" id="textAmount">
                             <span class="input-group-text" id="">$</span>
@@ -47,12 +48,12 @@
                         <input type="text" id="textSurname" class="form-control" required>
                     </div>
                 </div>
-                <div class="row mt-2">
-                    <div class="col-12 col-md-6">
+                <div class="row">
+                    <div class="col-12 col-md-6 mt-2">
                         <label for="textCity" class="form-label">City</label>
                         <input type="text" name="" id="textName" class="form-control" required>
                     </div>
-                    <div class="col-7 col-md-3">
+                    <div class="col-7 col-md-3 mt-2">
                         <label for="selectState" class="form-label">State</label>
                         <select class="form-select" id="selectState" required>
                             <option value="" selected disabled>Pick a state</option>
@@ -61,13 +62,13 @@
                             <option value="3">Alaska</option>
                           </select>
                     </div>
-                    <div class="col-5 col-md-3">
+                    <div class="col-5 col-md-3 mt-2">
                         <label for="textCP" class="form-label">Postal Code</label>
                         <input type="number" name="" id="textCP" class="form-control" required>
                     </div>
                 </div>
-                <div class="row my-2">
-                    <div class="col-md-6">
+                <div class="row ">
+                    <div class="col-md-6 mt-2">
                         <label for="radioPayment" class="form-label">We accept:</label>
                         <div class="paymentOptions p-2 rounded bg-secondary">
                             <div class="form-check form-check-inline" id="radioPayment">
@@ -88,7 +89,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 mt-2">
                         <label for="inputTextarea" class="form-label">Message</label>
                         <textarea class="form-control" id="inputTextarea" style="height: 100px" aria-describedby="messageHelp"></textarea>
                         <div id="messageHelp" class="form-text">

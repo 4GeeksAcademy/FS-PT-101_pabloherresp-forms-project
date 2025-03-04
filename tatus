@@ -1,0 +1,42 @@
+[33mcommit 5bce4759e62c9fdda2d6450fb65c908c932bc558[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Pabloherresp <pabloherreraespinola@gmail.com>
+Date:   Tue Mar 4 01:10:02 2025 +0000
+
+    fixed bottom responsiveness and payment options
+
+[33mcommit 0e6a20aaeb1180f467e2798fbb26a6633bba57d5[m
+Merge: 4f2b961 f257e3f
+Author: Pabloherresp <pabloherreraespinola@gmail.com>
+Date:   Tue Mar 4 01:08:22 2025 +0000
+
+    Merge branch 'main' of https://github.com/4GeeksAcademy/FS-PT-101_pabloherresp-forms-project
+
+[33mcommit 4f2b96190218591dd52d95844bc536352fdd6b50[m
+Author: Pabloherresp <pabloherreraespinola@gmail.com>
+Date:   Tue Mar 4 01:07:34 2025 +0000
+
+    fixed bottom responsiveness and payment options
+
+[33mcommit f257e3fed4606a2cbdede725b9d6e92b85f54b27[m
+Author: Pabloherresp <pabloherreraespinola@gmail.com>
+Date:   Mon Mar 3 14:19:22 2025 +0100
+
+    Update index.html
+
+[33mcommit caeef5c11b731a5dff2f66c123cada22d703a061[m
+Author: Pabloherresp <pabloherreraespinola@gmail.com>
+Date:   Mon Mar 3 14:17:55 2025 +0100
+
+    Create jekyll-gh-pages.yml
+
+[33mcommit 612b20a00067da2517a914e9278d1f360ce483e5[m
+Author: Pabloherresp <pabloherreraespinola@gmail.com>
+Date:   Mon Mar 3 13:17:23 2025 +0000
+
+    Form finished and ready to submit
+
+[33mcommit 1a139e6deb9ef4b425f5fad958a143548b01e007[m
+Author: Pabloherresp <pabloherreraespinola@gmail.com>
+Date:   Wed Feb 26 19:23:24 2025 +0100
+
+    Initial commit
