@@ -20,7 +20,7 @@
                 <div class="alert alert-danger alert-dismissible fade show" role="alert">
                     Some fields are missing
                 </div>
-                <div class="row my-2">
+                <div class="row">
                     <div class="col-12 col-md-5">
                         <label for="textCard" class="form-label">Card #</label>
                         <input type="text" id="textCard" class="form-control" placeholder="XXXXXXXXXXXXXXXX" pattern="[0-9]{16}" title="A card number is made of 16 numbers (XXXXXXXXXXXXXXXX)" required>
@@ -37,7 +37,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="row my-2">
+                <div class="row">
                     <div class="col-6">
                         <label for="textName" class="form-label">First Name</label>
                         <input type="text" id="textName" class="form-control" required>
@@ -47,7 +47,7 @@
                         <input type="text" id="textSurname" class="form-control" required>
                     </div>
                 </div>
-                <div class="row my-2">
+                <div class="row mt-2">
                     <div class="col-12 col-md-6">
                         <label for="textCity" class="form-label">City</label>
                         <input type="text" name="" id="textName" class="form-control" required>
@@ -67,28 +67,28 @@
                     </div>
                 </div>
                 <div class="row my-2">
-                    <div class="col-6">
+                    <div class="col-md-6">
                         <label for="radioPayment" class="form-label">We accept:</label>
-                        <div class="paymentOptions p-2 rounded bg-secondary">
+                        <div class="paymentOptions d-flex p-2 rounded bg-secondary">
                             <div class="form-check form-check-inline" id="radioPayment">
                                 <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" checked>
-                                <label class="form-check-label" for="inlineRadio1"><i class="fa-brands fa-cc-mastercard"></i></label>
+                                <label class="form-check-label" for="inlineRadio1"><i class="fa-brands fa-cc-mastercard text-white"></i></label>
                             </div>
                             <div class="form-check form-check-inline">
                                 <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                                <label class="form-check-label" for="inlineRadio2"><i class="fa-brands fa-cc-visa"></i></label>
+                                <label class="form-check-label" for="inlineRadio2"><i class="fa-brands fa-cc-visa text-white"></i></label>
                             </div>
                             <div class="form-check form-check-inline">
                                 <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
-                                <label class="form-check-label" for="inlineRadio3"><i class="fa-brands fa-cc-diners-club"></i></label>
+                                <label class="form-check-label" for="inlineRadio3"><i class="fa-brands fa-cc-diners-club text-white"></i></label>
                             </div>
                             <div class="form-check form-check-inline">
                                 <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option4">
-                                <label class="form-check-label" for="inlineRadio3"><i class="fa-brands fa-cc-amex"></i></label>
+                                <label class="form-check-label" for="inlineRadio4"><i class="fa-brands fa-cc-amex text-white"></i></label>
                             </div>
                         </div>
                     </div>
-                    <div class="col-6">
+                    <div class="col-md-6">
                         <label for="inputTextarea" class="form-label">Message</label>
                         <textarea class="form-control" id="inputTextarea" style="height: 100px" aria-describedby="messageHelp"></textarea>
                         <div id="messageHelp" class="form-text">
