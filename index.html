@@ -11,7 +11,7 @@
 <body>
     <div class="container">
         
-        <form action="#">
+        <form action="">
         <div class="card mt-5 mx-auto">
             <div class="card-header">
                 <h4 class="card-title">Payment form example</h4>
@@ -33,7 +33,7 @@
                         <label for="textAmount" class="form-label fw-bold">Amount</label>
                         <div class="input-group mb-3">
                             <span class="input-group-text" id="">$</span>
-                            <input type="number" id="textAmount" class="form-control" placeholder="Amount" min="0" required>
+                            <input type="text" id="textAmount" class="form-control" placeholder="Amount" pattern="\d+(.|,)?\d{0,2}" title="A amount is made of numbers and maybe 2 decimals (2, 21.23, 450.1)" required>
                         </div>
                     </div>
                 </div>
@@ -63,7 +63,7 @@
                     </div>
                     <div class="col-5 col-md-3 mt-2">
                         <label for="textCP" class="form-label fw-bold">Postal Code</label>
-                        <input type="number" name="" id="textCP" class="form-control" required>
+                        <input type="text" name="" id="textCP" class="form-control" pattern="[0-9]{5}" title="A Postal Code is made by 5 numbers (12345)" required>
                     </div>
                 </div>
                 <div class="row">
